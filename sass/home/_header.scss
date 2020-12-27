@@ -1,0 +1,131 @@
+$header_top_section_height:40px;
+.header{
+    .header_top{        
+        height: 50px;
+        
+        .container{
+
+            .row{
+                .col-3{
+                    
+                    
+                    .header_top_left{
+                        
+                        ul{
+                            list-style: none;
+                            display: flex;
+                            justify-content: space-around;
+                            padding: 0px;
+                            margin: 5px;
+                            li{
+                                a{
+                                    text-decoration: none;
+                                    color: #656565;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .col-6{
+                    .header_top_center{
+                        ul{
+                            background: #d9d9d9;
+                            border-radius: 5px;
+                            list-style: none;
+                            display: flex;
+                            justify-content: space-evenly;
+                            padding: 5px 0px;
+                            margin: 5px;
+                            li{
+                                font-size: 14px;
+                                color: #434343;
+                            }
+                        }
+                    }
+                }
+                .col-3{
+                    .header_top_right{
+                        ul{
+                            list-style: none;
+                            display: flex;
+                            justify-content: space-around;
+                            padding: 0px;
+                            margin: 5px;
+                            li{
+                                a{
+                                    text-decoration: none;
+                                    color: #656565;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+    .header_bottom{
+        .container{
+            .row{
+                .col-2{
+                    .logo_header{
+                        img{
+                            width: 160px;
+                        }
+                    }
+                }
+                .col-7{
+                    
+                    .nav_bar{
+                        ul{
+                            list-style: none;
+                            display: flex;
+                            justify-content: space-around;
+                            padding: 0px;
+                            margin: 5px;
+                            li{
+                                a{
+                                    text-decoration: none;
+                                    color: #2c2c51;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .col-3{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    padding: 0px 20px;
+                    
+                    a{
+                        i{
+                            padding: 10px;
+                            border-radius: 15px;
+                            border: solid 1px #cecee2;
+                        }
+                    }
+                    ul{
+                        border: solid 1px #7b7b93;
+                        border-radius: 10px;
+                        padding: 0px;
+                        align-items: center;
+                        
+                        li{
+                            padding: 10px 30px;
+                            list-style: none;
+                            a{
+                                text-decoration: none;
+                                color: #2c2c51;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,145 @@
+.news{
+    padding: 20px 0px 30px;
+    .news_item{
+        position: relative;
+        color: white;
+        .container{
+            .row{
+                .col-6{
+                    .news_item_info{
+                        position: absolute;
+                        top: 30%;
+
+                        h2{}
+                        p{}
+                        a{}
+                    }
+                    .news_item_picture{
+                        img{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.how_it_works{
+    .container{
+        h1{
+            text-align: center;
+            font-size: 34px;
+        }
+        
+        .work_parts{
+            border: 1px solid #e6e9ef;
+            .row{
+                .col-4{
+                    border-left: 1px solid #e6e9ef;
+                    border-right: 1px solid #e6e9ef;
+                    .col-4_in{
+                        padding: 30px 45px;
+                        text-align: center;
+
+                        img{}
+                        h4{
+                            font-size: 22px;
+                            font-family: ProximaNova, sans-serif;
+                        }
+                        p{
+                            font-size: 16px;
+                            font-family: Calibri, sans-serif;
+                            padding: 0px 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.calc-exchange{
+    padding: 30px 0px;
+    .container{
+        .row{
+            .col-6{
+                text-align: center;
+                color: #434343;
+                .calculator{
+                    h1{
+                        
+                    }
+                    p{
+                        padding: 0px 25px;
+                    }
+                    .col-12{
+                        box-shadow: 0 3px 6px rgba(217,230,255,.16), 0 3px 12px #eae9ea;
+                        .row{
+                            .col-6{
+                                
+                                .form_calc{
+                                    position: relative;
+                                    margin: 10px 0px;
+                                    select{
+                                        
+                                        width: 100%;
+                                        height: 50px;
+                                        border-radius: 10px;
+                                        font-size: 15px;
+                                        border-radius: 3px;
+                                        border: 1px solid #d8d8d8;
+                                        option{}
+                                    
+                                    }
+                                    span{}
+                                    label{
+                                    }
+                                    
+                                }
+                            }
+                            .col-3{
+                                input{
+                                    width: 90%;
+                                    font-size: 18px;
+                                    height: 40px;
+                                    margin: 10px 0px;
+                                    border-radius: 3px;
+                                    border: 1px solid #d8d8d8;
+                                    text-align: center;
+                                    
+                                }
+                            }
+                            .col-12{
+                                padding: 10px 0px 20px ;
+                                .row{
+                                    .col-6{
+                                        .calculate_btn{
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            font-size: 18px;
+                                            width: 50%;
+                                            height: 40px;
+                                            background: #ffffff;
+                                            border-radius: 3px;
+                                            border: 1px solid #fcd626;
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+                .exchange{
+                    h1{}
+                    p{
+                        padding: 0px 25px;
+                    }
+                }
+            }
+        }
+    }
+}
